@@ -1,0 +1,17 @@
+I2Cdev.cpp:48:6:void I2Cdev_init(I2C_HandleTypeDef*)	16	static
+I2Cdev.cpp:60:9:uint8_t I2Cdev_readBit(uint8_t, uint8_t, uint8_t, uint8_t*, uint16_t)	24	static
+I2Cdev.cpp:76:9:uint8_t I2Cdev_readBitW(uint8_t, uint8_t, uint8_t, uint16_t*, uint16_t)	24	static
+I2Cdev.cpp:93:9:uint8_t I2Cdev_readBits(uint8_t, uint8_t, uint8_t, uint8_t, uint8_t*, uint16_t)	32	static
+I2Cdev.cpp:120:9:uint8_t I2Cdev_readBitsW(uint8_t, uint8_t, uint8_t, uint8_t, uint16_t*, uint16_t)	32	static
+I2Cdev.cpp:146:9:uint8_t I2Cdev_readByte(uint8_t, uint8_t, uint8_t*, uint16_t)	24	static
+I2Cdev.cpp:158:9:uint8_t I2Cdev_readWord(uint8_t, uint8_t, uint16_t*, uint16_t)	24	static
+I2Cdev.cpp:171:9:uint8_t I2Cdev_readBytes(uint8_t, uint8_t, uint8_t, uint8_t*, uint16_t)	32	static
+I2Cdev.cpp:188:9:uint8_t I2Cdev_readWords(uint8_t, uint8_t, uint8_t, uint16_t*, uint16_t)	32	static
+I2Cdev.cpp:206:10:uint16_t I2Cdev_writeBit(uint8_t, uint8_t, uint8_t, uint8_t)	32	static
+I2Cdev.cpp:222:10:uint16_t I2Cdev_writeBitW(uint8_t, uint8_t, uint8_t, uint16_t)	32	static
+I2Cdev.cpp:238:10:uint16_t I2Cdev_writeBits(uint8_t, uint8_t, uint8_t, uint8_t, uint8_t)	32	static
+I2Cdev.cpp:271:10:uint16_t I2Cdev_writeBitsW(uint8_t, uint8_t, uint8_t, uint8_t, uint16_t)	32	static
+I2Cdev.cpp:302:10:uint16_t I2Cdev_writeByte(uint8_t, uint8_t, uint8_t)	16	static
+I2Cdev.cpp:313:10:uint16_t I2Cdev_writeWord(uint8_t, uint8_t, uint16_t)	16	static
+I2Cdev.cpp:325:10:uint16_t I2Cdev_writeBytes(uint8_t, uint8_t, uint8_t, uint8_t*)	48	static
+I2Cdev.cpp:338:10:uint16_t I2Cdev_writeWords(uint8_t, uint8_t, uint8_t, uint16_t*)	48	static
