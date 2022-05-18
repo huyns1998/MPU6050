@@ -150,16 +150,16 @@ u8_t MPU_Init(I2C_HandleTypeDef* hi2c)
 		calibSetup();
 
 		calibration_caloffset();
-		//supply your own gyro offsets here, scaled for min sensitivity
-		g_mpu.setXGyroOffset(g_iwGx_offset);
-		g_mpu.setYGyroOffset(g_iwGy_offset);
-		g_mpu.setZGyroOffset(g_iwGz_offset);
-		g_mpu.setZAccelOffset(g_iwAz_offset); // 1688 factory default for my test chip
+//		//supply your own gyro offsets here, scaled for min sensitivity
+//		g_mpu.setXGyroOffset(g_iwGx_offset);
+//		g_mpu.setYGyroOffset(g_iwGy_offset);
+//		g_mpu.setZGyroOffset(g_iwGz_offset);
+//		g_mpu.setZAccelOffset(g_iwAz_offset); // 1688 factory default for my test chip
 
-//		g_mpu.setXGyroOffset(114);
-//		g_mpu.setYGyroOffset(103);
-//		g_mpu.setZGyroOffset(44);
-//		g_mpu.setZAccelOffset(1268); // 1688 factory default for my test chip
+//		g_mpu.setXGyroOffset(110);
+//		g_mpu.setYGyroOffset(98);
+//		g_mpu.setZGyroOffset(47);
+//		g_mpu.setZAccelOffset(1236); // 1688 factory default for my test chip
 
 		// turn on the DMP, now that it's ready
 		g_mpu.setDMPEnabled(true);
